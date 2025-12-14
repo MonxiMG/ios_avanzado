@@ -6,8 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0A3B0012EEEC9B20078A8AE /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3AFFD2EEEC6790078A8AE /* Receta.swift */; };
+		B0A3B0022EEEC9B80078A8AE /* Ingrediente.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3AFFE2EEEC6860078A8AE /* Ingrediente.swift */; };
+		B0A3B0032EEEC9BE0078A8AE /* Pasos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3AFFF2EEEC6920078A8AE /* Pasos.swift */; };
+		B0A3B0042EEEC9C50078A8AE /* Dificultad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0002EEEC6B60078A8AE /* Dificultad.swift */; };
+		B0A3B0092EEECB190078A8AE /* AlmacenRecetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0062EEECA840078A8AE /* AlmacenRecetas.swift */; };
+		B0A3B00A2EEECB1F0078A8AE /* ListaRecetasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0082EEECB060078A8AE /* ListaRecetasViewController.swift */; };
+		B0A3B00C2EEECCAF0078A8AE /* DetalleRecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B00B2EEECCAF0078A8AE /* DetalleRecetaViewController.swift */; };
+		B0A3B00E2EEED1EE0078A8AE /* DetalleRecetaTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B00D2EEED1EE0078A8AE /* DetalleRecetaTabBarController.swift */; };
+		B0A3B0102EEED24B0078A8AE /* ResumenRecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B00F2EEED24B0078A8AE /* ResumenRecetaViewController.swift */; };
+		B0A3B0122EEED30A0078A8AE /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0112EEED30A0078A8AE /* IngredientesViewController.swift */; };
+		B0A3B0142EEED37F0078A8AE /* PasosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0132EEED37F0078A8AE /* PasosViewController.swift */; };
+		B0A3B0162EEED45E0078A8AE /* PasosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0152EEED45E0078A8AE /* PasosCollectionViewController.swift */; };
+		B0A3B0182EEED6010078A8AE /* RootSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0172EEED6010078A8AE /* RootSplitViewController.swift */; };
+		B0A3B01A2EEED67D0078A8AE /* PlaceholderDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B0192EEED67D0078A8AE /* PlaceholderDetalleViewController.swift */; };
+		B0A3B01C2EEF22CC0078A8AE /* ItemCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B01B2EEF22CC0078A8AE /* ItemCompra.swift */; };
+		B0A3B01E2EEF23180078A8AE /* AlmacenCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B01D2EEF23180078A8AE /* AlmacenCompra.swift */; };
+		B0A3B0202EEF23CD0078A8AE /* ListaCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3B01F2EEF23CD0078A8AE /* ListaCompraViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B0A3AFE42EEEC6310078A8AE /* CocinarEnCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocinarEnCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A3AFFD2EEEC6790078A8AE /* Receta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		B0A3AFFE2EEEC6860078A8AE /* Ingrediente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingrediente.swift; sourceTree = "<group>"; };
+		B0A3AFFF2EEEC6920078A8AE /* Pasos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasos.swift; sourceTree = "<group>"; };
+		B0A3B0002EEEC6B60078A8AE /* Dificultad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dificultad.swift; sourceTree = "<group>"; };
+		B0A3B0062EEECA840078A8AE /* AlmacenRecetas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmacenRecetas.swift; sourceTree = "<group>"; };
+		B0A3B0082EEECB060078A8AE /* ListaRecetasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaRecetasViewController.swift; sourceTree = "<group>"; };
+		B0A3B00B2EEECCAF0078A8AE /* DetalleRecetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRecetaViewController.swift; sourceTree = "<group>"; };
+		B0A3B00D2EEED1EE0078A8AE /* DetalleRecetaTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRecetaTabBarController.swift; sourceTree = "<group>"; };
+		B0A3B00F2EEED24B0078A8AE /* ResumenRecetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenRecetaViewController.swift; sourceTree = "<group>"; };
+		B0A3B0112EEED30A0078A8AE /* IngredientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
+		B0A3B0132EEED37F0078A8AE /* PasosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasosViewController.swift; sourceTree = "<group>"; };
+		B0A3B0152EEED45E0078A8AE /* PasosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasosCollectionViewController.swift; sourceTree = "<group>"; };
+		B0A3B0172EEED6010078A8AE /* RootSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSplitViewController.swift; sourceTree = "<group>"; };
+		B0A3B0192EEED67D0078A8AE /* PlaceholderDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderDetalleViewController.swift; sourceTree = "<group>"; };
+		B0A3B01B2EEF22CC0078A8AE /* ItemCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCompra.swift; sourceTree = "<group>"; };
+		B0A3B01D2EEF23180078A8AE /* AlmacenCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmacenCompra.swift; sourceTree = "<group>"; };
+		B0A3B01F2EEF23CD0078A8AE /* ListaCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +82,9 @@
 		B0A3AFDB2EEEC6310078A8AE = {
 			isa = PBXGroup;
 			children = (
+				B0A3B0072EEECAF80078A8AE /* UI */,
+				B0A3B0052EEECA760078A8AE /* Datos */,
+				B0A3AFFC2EEEC6690078A8AE /* Modelo */,
 				B0A3AFE62EEEC6310078A8AE /* CocinarEnCasa */,
 				B0A3AFE52EEEC6310078A8AE /* Products */,
 			);
@@ -56,6 +96,44 @@
 				B0A3AFE42EEEC6310078A8AE /* CocinarEnCasa.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A3AFFC2EEEC6690078A8AE /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3B01B2EEF22CC0078A8AE /* ItemCompra.swift */,
+				B0A3B0002EEEC6B60078A8AE /* Dificultad.swift */,
+				B0A3AFFF2EEEC6920078A8AE /* Pasos.swift */,
+				B0A3AFFE2EEEC6860078A8AE /* Ingrediente.swift */,
+				B0A3AFFD2EEEC6790078A8AE /* Receta.swift */,
+				B0A3B01D2EEF23180078A8AE /* AlmacenCompra.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		B0A3B0052EEECA760078A8AE /* Datos */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3B0062EEECA840078A8AE /* AlmacenRecetas.swift */,
+			);
+			path = Datos;
+			sourceTree = "<group>";
+		};
+		B0A3B0072EEECAF80078A8AE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3B0082EEECB060078A8AE /* ListaRecetasViewController.swift */,
+				B0A3B00B2EEECCAF0078A8AE /* DetalleRecetaViewController.swift */,
+				B0A3B00D2EEED1EE0078A8AE /* DetalleRecetaTabBarController.swift */,
+				B0A3B00F2EEED24B0078A8AE /* ResumenRecetaViewController.swift */,
+				B0A3B0112EEED30A0078A8AE /* IngredientesViewController.swift */,
+				B0A3B0132EEED37F0078A8AE /* PasosViewController.swift */,
+				B0A3B0152EEED45E0078A8AE /* PasosCollectionViewController.swift */,
+				B0A3B0172EEED6010078A8AE /* RootSplitViewController.swift */,
+				B0A3B0192EEED67D0078A8AE /* PlaceholderDetalleViewController.swift */,
+				B0A3B01F2EEF23CD0078A8AE /* ListaCompraViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +210,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A3B0032EEEC9BE0078A8AE /* Pasos.swift in Sources */,
+				B0A3B00E2EEED1EE0078A8AE /* DetalleRecetaTabBarController.swift in Sources */,
+				B0A3B00A2EEECB1F0078A8AE /* ListaRecetasViewController.swift in Sources */,
+				B0A3B01A2EEED67D0078A8AE /* PlaceholderDetalleViewController.swift in Sources */,
+				B0A3B00C2EEECCAF0078A8AE /* DetalleRecetaViewController.swift in Sources */,
+				B0A3B0122EEED30A0078A8AE /* IngredientesViewController.swift in Sources */,
+				B0A3B0182EEED6010078A8AE /* RootSplitViewController.swift in Sources */,
+				B0A3B0142EEED37F0078A8AE /* PasosViewController.swift in Sources */,
+				B0A3B0102EEED24B0078A8AE /* ResumenRecetaViewController.swift in Sources */,
+				B0A3B0042EEEC9C50078A8AE /* Dificultad.swift in Sources */,
+				B0A3B0022EEEC9B80078A8AE /* Ingrediente.swift in Sources */,
+				B0A3B01C2EEF22CC0078A8AE /* ItemCompra.swift in Sources */,
+				B0A3B0012EEEC9B20078A8AE /* Receta.swift in Sources */,
+				B0A3B0202EEF23CD0078A8AE /* ListaCompraViewController.swift in Sources */,
+				B0A3B0092EEECB190078A8AE /* AlmacenRecetas.swift in Sources */,
+				B0A3B0162EEED45E0078A8AE /* PasosCollectionViewController.swift in Sources */,
+				B0A3B01E2EEF23180078A8AE /* AlmacenCompra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
