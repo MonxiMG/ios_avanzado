@@ -26,9 +26,7 @@ Además:
 - `UITableViewController` para lista de recetas, ingredientes y lista de compra.
 - `UISearchController` para búsqueda.
 
----
-
-## Funcionalidades principales 🧩
+## Funcionalidades principales
 
 ### Recetas
 - Listado de recetas con información básica (tiempo y dificultad).
@@ -44,8 +42,6 @@ Además:
 ### Búsqueda y filtro
 - **Búsqueda** por **título + etiquetas** con `UISearchController`.
 - **Filtro por dificultad** mediante `UIActionSheet`.
-
----
 
 ## Mejoras realizadas (extra)
 
@@ -64,9 +60,7 @@ Además:
   - Vaciar lista (botón).
   - **Compartir** la lista (Share Sheet con `UIActivityViewController`).
 - Persistencia en `UserDefaults` almacenando `[ItemCompra]` codificado en JSON (`Codable`).
-
----
-
+- 
 ## Estructura del proyecto 📁 (orientativa)
 - **Modelo/**
   - `Receta`, `Ingrediente`, `Paso`, `Dificultad`, `ItemCompra`
@@ -82,9 +76,8 @@ Además:
   - `PasosCollectionViewController`
   - `ListaCompraViewController`
   - `PlaceholderDetalleViewController`
-
----
-
+  - 
 ## Pruebas realizadas 
--appiphone.mov
--appipad.mov
+-appiphone.mp4
+-appipad.mp4
+
