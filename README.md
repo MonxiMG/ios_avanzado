@@ -1,4 +1,4 @@
-# CocinarEnCasa 🍳 (iOS Universal)
+# CocinarEnCasa 
 
 App universal iOS para gestionar recetas de cocina, ver ingredientes y pasos, marcar favoritos y crear una lista de compra persistente. Diseñada con UIKit y adaptada a tamaños compact/regular (iPhone/iPad).
 
